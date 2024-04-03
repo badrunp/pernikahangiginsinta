@@ -32,7 +32,7 @@ function Footer() {
         >
           <div className="relative w-[230px] h-[200px] rounded-md overflow-hidden mx-auto mb-10">
             <Image
-              src={"/assets/image/mempelai/1.jpeg"}
+              src={"/assets/image/mempelai/footer.jpg"}
               alt="bgbtn"
               fill
               className="w-full h-full object-cover object-top"
@@ -47,8 +47,8 @@ function Footer() {
 
           <p className="text-gray-800 text-center text-sm mb-1">Terima kasih</p>
           <p className="text-gray-800 text-center text-sm font-semibold">
-            Maman Supratman <br /> & <br />
-            Eka Raniyati Rahman
+            Gigin Ginanjar <br /> & <br />
+            Sinta Marapianti
           </p>
           <p className="text-gray-800 text-center text-xs mb-1 mt-16">
             &copy; 2023 Duos Dev. All Rights Reserved

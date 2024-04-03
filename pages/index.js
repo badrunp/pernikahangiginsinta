@@ -16,75 +16,75 @@ import { useEffect, useState } from "react";
 // const Jumbotron = React.lazy(() => import("@/components/sections/Jumbotron"));
 
 export default function Home() {
-  const [active, setActive] = useState(true);
-  const [loading, setLoading] = useState(true);
-  const [audio, setAudio] = useState(null);
-  const [isPlay, setIsPlay] = useState(false);
+ const [active, setActive] = useState(true);
+ const [loading, setLoading] = useState(true);
+ const [audio, setAudio] = useState(null);
+ const [isPlay, setIsPlay] = useState(false);
 
-  const handleCloseActive = () => {
-    setActive(false);
-    playAudio();
-    document.body.classList.remove("overflow-y-hidden");
-  };
+ const handleCloseActive = () => {
+  setActive(false);
+  playAudio();
+  document.body.classList.remove("overflow-y-hidden");
+ };
 
-  const playAudio = () => {
-    audio.loop = true;
-    if (isPlay) {
-      audio.pause();
-      setIsPlay(false);
-    } else {
-      audio.play();
-      setIsPlay(true);
-    }
-  };
+ const playAudio = () => {
+  audio.loop = true;
+  if (isPlay) {
+   audio.pause();
+   setIsPlay(false);
+  } else {
+   audio.play();
+   setIsPlay(true);
+  }
+ };
 
-  useEffect(() => {
-    if (audio == null) {
-      setAudio(new Audio("/assets/mp3/audio.mp3"));
-    }
-  }, [audio]);
+ useEffect(() => {
+  if (audio == null) {
+   setAudio(new Audio("/assets/mp3/audio.mp3"));
+  }
+ }, [audio]);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 200);
-  }, []);
+ useEffect(() => {
+  setTimeout(() => {
+   setLoading(false);
+  }, 200);
+ }, []);
 
-  return (
-    <>
-      <Head>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1"
-          user-scalable="no"
-        />
-        <title>Undangan Pernikahan Maman & Eka</title>
-      </Head>
-      <main className="max-w-[428px] mx-auto relative bg-white font-osans">
-        <MenuBottomBar handlePlayMusic={playAudio} isPlay={isPlay} />
+ return (
+  <>
+   <Head>
+    <meta
+     name="viewport"
+     content="width=device-width, initial-scale=1"
+     user-scalable="no"
+    />
+    <title>Undangan Pernikahan Gigin & Sinta</title>
+   </Head>
+   <main className="max-w-[428px] mx-auto relative bg-white font-osans">
+    <MenuBottomBar handlePlayMusic={playAudio} isPlay={isPlay} />
 
-        <Jumbotron />
+    <Jumbotron />
 
-        {loading && <Loading awal={true} />}
+    {loading && <Loading awal={true} />}
 
-        <AnimatePresence>
-          {active && <AwalPage handleCloseActive={handleCloseActive} />}
-        </AnimatePresence>
+    <AnimatePresence>
+     {active && <AwalPage handleCloseActive={handleCloseActive} />}
+    </AnimatePresence>
 
-        <Undangan />
+    <Undangan />
 
-        <Mempelai />
+    <Mempelai />
 
-        <Acara />
+    <Acara />
 
-        <Kado />
+    <Kado />
 
-        <Ucapan />
+    <Ucapan />
 
-        <Galeri />
+    <Galeri />
 
-        <Footer />
-      </main>
-    </>
-  );
+    <Footer />
+   </main>
+  </>
+ );
 }
