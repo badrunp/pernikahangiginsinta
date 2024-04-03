@@ -13,7 +13,7 @@ export default function Document() {
     />
     <meta
      property="og:description"
-     content="Undangan Pernikahan Gigin & Sinta"
+     content="Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir dan memberikan Do'a restu di acara berbahagia kami"
     />
     <meta name="twitter:title" content="Undangan Pernikahan Gigin & Sinta" />
     <meta
@@ -30,10 +30,7 @@ export default function Document() {
     />
     <meta
      name="description"
-     content="Pernikahan Gigin & Sinta, Atas Rahmat Tuhan Yang Maha Esa, kami bermaksud menyelenggarakan Acara
-          Pernikahan. Merupakan suatu kehormatan dan kebahagiaan bagi kami
-          sekeluarga, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan
-          doa restu kepada kami."
+     content="Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir dan memberikan Do'a restu di acara berbahagia kami"
     />
     <link rel="icon" href="/balloons.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com"></link>
