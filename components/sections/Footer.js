@@ -51,7 +51,7 @@ function Footer() {
       Sinta Marapianti
      </p>
      <p className="text-gray-800 text-center text-xs mb-1 mt-16">
-      &copy; {{ new Date().getFullYear()) }} Duos Dev. All Rights Reserved
+      &copy; 2024 Duos Dev. All Rights Reserved
      </p>
     </motion.div>
    </div>
