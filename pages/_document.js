@@ -9,7 +9,7 @@ export default function Document() {
     <meta property="og:title" content="Undangan Pernikahan Gigin & Sinta" />
     <meta
      property="og:image"
-     content={host + "/assets/image/mempelai/4.jpeg"}
+     content={host + "/assets/image/mempelai/galery2.jpg"}
     />
     <meta
      property="og:description"
@@ -18,15 +18,15 @@ export default function Document() {
     <meta name="twitter:title" content="Undangan Pernikahan Gigin & Sinta" />
     <meta
      name="twitter:image"
-     content={host + "/assets/image/mempelai/4.jpeg"}
+     content={host + "/assets/image/mempelai/galery2.jpg"}
     />
     <meta
      name="twitter:url"
-     content={host + "/assets/image/mempelai/4.jpeg"}
+     content={host + "/assets/image/mempelai/galery2.jpg"}
     />
     <meta
      name="twitter:card"
-     content={host + "/assets/image/mempelai/4.jpeg"}
+     content={host + "/assets/image/mempelai/galery2.jpg"}
     />
     <meta
      name="description"
