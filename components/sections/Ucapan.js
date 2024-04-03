@@ -292,7 +292,7 @@ function Ucapan() {
           <div className="border-b border-gray-300 pb-3">
             <div className="flex items-center space-x-2 mb-1">
               <h2 className="text-gray-800 font-bold text-xl">Ucapan</h2>
-              <h4 className="w-5 h-5 text-sm font-semibold bg-red-500 text-white rounded-full flex items-center justify-center">
+              <h4 className="text-sm font-semibold rounded-full flex items-center justify-center">
                 {countData}
               </h4>
             </div>
