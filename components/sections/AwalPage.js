@@ -17,7 +17,7 @@ function AwalPage({ handleCloseActive }) {
     </h3>
 
     <Image
-     src={"/assets/image/mempelai/4.jpeg"}
+     src={"/assets/image/mempelai/galery2.jpg"}
      alt="bgbtn"
      width={180}
      height={100}

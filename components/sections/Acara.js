@@ -17,7 +17,7 @@ function SelesaiAcara() {
 function AkadNikah() {
  const [days, hours, minutes, seconds] = useCountdown(
   new Date(
-   "Thu Apr 25 2023 08:00:00 GMT+0700 (Waktu Indonesia Barat)"
+   "Thu Apr 25 2024 08:00:00 GMT+0700 (Waktu Indonesia Barat)"
   ).getTime()
  );
  return days + hours + minutes + seconds <= 0 ? (
@@ -36,7 +36,7 @@ function AkadNikah() {
 function Resepsi() {
  const [days, hours, minutes, seconds] = useCountdown(
   new Date(
-   "Thu Apr 25 2023 10:00:00 GMT+0700 (Waktu Indonesia Barat)"
+   "Thu Apr 25 2024 10:00:00 GMT+0700 (Waktu Indonesia Barat)"
   ).getTime()
  );
  return days + hours + minutes + seconds <= 0 ? (

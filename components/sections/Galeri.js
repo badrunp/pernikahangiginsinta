@@ -49,6 +49,27 @@ function Galeri() {
       hideZoom
      />
     </motion.div>
+
+    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+     <ModalImage
+      small={"/assets/image/mempelai/galery5.jpg"}
+      large={"/assets/image/mempelai/galery5.jpg"}
+      className="relative w-full h-[190px] object-cover rounded-md object-top"
+      hideDownload
+      hideZoom
+     />
+    </motion.div>
+
+    <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+     <ModalImage
+      small={"/assets/image/mempelai/galery6.jpg"}
+      large={"/assets/image/mempelai/galery6.jpg"}
+      className="relative w-full h-[190px] object-cover rounded-md object-top"
+      hideDownload
+      hideZoom
+     />
+    </motion.div>
+
    </div>
   </div>
  );
