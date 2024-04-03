@@ -95,6 +95,24 @@ function Kado() {
       }}
       className="space-y-14"
      >
+           <GiftItem
+       img={"/assets/image/logo-dana.svg"}
+       buttonText="Copy Nomor Dana"
+       no="6282130985022"
+       lists={[
+        {
+         id: 1,
+         title: "Nomor Dana:",
+         value: "+6282130985022",
+        },
+        {
+         id: 2,
+         title: "A/N:",
+         value: "Gigin Ginanjar",
+        },
+       ]}
+       handleSuccessCopy={handleActiveIsNomor}
+      />
       <GiftItem
        img={"/assets/image/logo-dana.svg"}
        buttonText="Copy Nomor Dana"
@@ -113,24 +131,7 @@ function Kado() {
        ]}
        handleSuccessCopy={handleActiveIsRekening}
       />
-      <GiftItem
-       img={"/assets/image/logo-dana.svg"}
-       buttonText="Copy Nomor Dana"
-       no="6282130985022"
-       lists={[
-        {
-         id: 1,
-         title: "Nomor Dana:",
-         value: "+6282130985022",
-        },
-        {
-         id: 2,
-         title: "A/N:",
-         value: "Gigin Ginanjar",
-        },
-       ]}
-       handleSuccessCopy={handleActiveIsNomor}
-      />
+
      </motion.div>
     </div>
    </div>
