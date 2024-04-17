@@ -30,7 +30,7 @@ function Timeline() {
         <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
        </svg>
        <div class="ml-6">
-        <h4 class="font-bold text-amber-700/80">Pertemuan.</h4>
+        <h4 class="font-bold text-amber-700/80">Pertemuan</h4>
         <p class="mt-2 max-w-screen-sm text-sm text-gray-500">
          Tiada yang kebetulan di dunia ini, semua sudah tersusun rapi oleh sang maha kuasa, kita tidak bisa memilih kepada siapa kita akan jatuh cinta. Kami bertemu pada awal APRIL 2018, uniknya kami bertemu di aplikasi bernama whatsapp dan di pertemukan secara langsung di nikahan temen, yang awalnya hanya iseng berkenalan. Tidak pernah menyangka bahwa pertemuan dengan ketidaksengajaan itu membawa kami pada suatu ikatan yang suci.</p>
        </div>
@@ -40,7 +40,7 @@ function Timeline() {
         <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
        </svg>
        <div class="ml-6">
-        <h4 class="font-bold text-amber-700/80">Pendekatan.</h4>
+        <h4 class="font-bold text-amber-700/80">Pendekatan</h4>
         <p class="mt-2 max-w-screen-sm text-sm text-gray-500">
          Katanya cinta dapat tumbuh dengan kebersamaan, seiring berjalannya waktu kami semakin dekat berada di daerah yang berjarak 10 menit membuat kami cukup sering bertemu.</p>
 
@@ -51,7 +51,7 @@ function Timeline() {
         <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
        </svg>
        <div class="ml-6">
-        <h4 class="font-bold text-amber-700/80">Lamaran.</h4>
+        <h4 class="font-bold text-amber-700/80">Lamaran</h4>
         <p class="mt-2 max-w-screen-sm text-sm text-gray-500">
          Kehendaknya menuntun kami pada sebuah pertemuan yang tidak pernah di sangka hingga akhirnya membawa kami pada sebuah ikatan suci yang di cintainya setelah menjalin hubungan selama 5 tahun, kami melangsungkan lamaran di bulan Desember 2023.</p>
 
@@ -62,7 +62,7 @@ function Timeline() {
         <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
        </svg>
        <div class="ml-6">
-        <h4 class="font-bold text-amber-700/80">Pernikahan.</h4>
+        <h4 class="font-bold text-amber-700/80">Pernikahan</h4>
         <p class="mt-2 max-w-screen-sm text-sm text-gray-500">
          Percayalah, bukan karena bertemu lalu berjodoh tapi karena berjodoh lah maka kami di pertemukan. Akhirnya kami memantapkan hati untuk melangkah ke jenjang yang lebih serius insha allah kami akan melangsungkan pernikahan dengan sederhana pada hari Kamis tanggan 25 April 2024 Berkat semua do'a restu dari keluarga dan teman-teman kami berdua telah siap untuk menempuh hidup bersama dan menjalankan ibadah terpanjang yang indah.</p>
        </div>
