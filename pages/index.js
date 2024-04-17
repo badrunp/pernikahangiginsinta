@@ -76,9 +76,9 @@ export default function Home() {
 
     <Mempelai />
 
-    <Acara />
-    
     <Timeline />
+
+    <Acara />
 
     <Kado />
 
