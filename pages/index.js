@@ -9,6 +9,7 @@ import Kado from "@/components/sections/Kado";
 import Mempelai from "@/components/sections/Mempelai";
 import Ucapan from "@/components/sections/Ucapan";
 import Undangan from "@/components/sections/Undangan";
+import Timeline from "@/components/sections/Timeline";
 import { AnimatePresence } from "framer-motion";
 import Head from "next/head";
 import { useEffect, useState } from "react";
@@ -76,6 +77,8 @@ export default function Home() {
     <Mempelai />
 
     <Acara />
+    
+    <Timeline />
 
     <Kado />
 
