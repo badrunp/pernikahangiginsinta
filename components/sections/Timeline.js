@@ -76,4 +76,4 @@ function Timeline() {
  );
 }
 
-export default Mempelai;
+export default Timeline;
